@@ -10,14 +10,23 @@ ML: sklearn, pandas, numpy API: flask Данные: с kaggle - Hotel Reservatio
 Используемые признаки:
 
 type_of_meal_plan - Тип плана питания забронированного клиентом (категории - Meal Plan 1, Meal Plan 2, Meal Plan 3, Not Selected)
+
 required_car_parking_space - Признак отражающий необходимость парковочного места для клиента (int)
+
 lead_time - Количество дней с момента бронирования до момента заезда в отель (int)
+
 arrival_month - Месяц прибытия в отель (int)
+
 market_segment_type - Тип сегмента рынка (категория - Online, Offline, Corporate, Complementary, Aviation)
+
 repeated_guest - являеться ли данный визит повторным (int)
+
 avg_price_per_room - средняя цена за номер. Цена за номер может меняться динамечиски (float)
+
 no_of_special_requests - Общее количество особых запросов сделанных клиентом (int)
+
 no_of_people - Количество людей (float)
+
 no_of_week_days - Количество дней которые клиент проживает или бронирует для проживания в отеле (float)
 
 booking_status - Признак того было отменено бронирование или нет
